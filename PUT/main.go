@@ -22,7 +22,7 @@ type Product struct {
 var DB *gorm.DB
 
 // Database connection string
-const dsn = "admin:Vidhya_14@tcp(inventorysystem.cbmag2acul28.us-east-1.rds.amazonaws.com:3306)/inventorysystem?charset=utf8mb4&parseTime=True&loc=Local"
+const dsn = "admin:Password123@tcp(mysql-rds-1.c5eooawm67do.us-east-1.rds.amazonaws.com:3306)/inventorysystem?charset=utf8mb4&parseTime=True&loc=Local"
 
 // Initialize the database connection
 func initializeDatabase() {
